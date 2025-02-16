@@ -78,3 +78,12 @@ Make another branch and Merge
    78  git status
    79  git log
    80  ls
+ 88  mkdir projects
+   89  cd projects/
+   90  git clone https://github.com/ashis103/git-details.git
+   91  ls
+   92  cd git-details/
+   93  ls
+   94  git remote  -v
+   95  touch my-remore-test.txt
+
