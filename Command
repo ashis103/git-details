@@ -121,4 +121,13 @@ Make another branch and Merge
   177  git status
   178  git switch main
   179  git status
+** File revert ::: revert korle file deleted hoye jae .....
+
+ 269  touch file3
+  270  git add .
+  271  git commit -m "level3"
+  272  git log --oneline
+  273  git revert eef5533
+  274  git log --oneline
+
 
