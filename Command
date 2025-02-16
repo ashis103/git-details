@@ -149,3 +149,16 @@ ubuntu@ip-172-31-47-42:~/playground/project/linux$ git log --oneline
   288  git log --oneline
   289  git cherry-pick b906bc4
   290  git log --oneline
+
+** Stash Kore Emergency Kaj kore again temp file kaj korbo**
+
+ ** Stash Kore Kaj Temp save kore rakhboo ** jate another branch kaj korte pari
+ 293  vi test.sh
+  294  git log --oneline
+  295  git add .
+  296  git stash
+  297  history
+  298  git stash list
+  299  git stash pop
+  git stash clear
+
