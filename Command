@@ -1,0 +1,80 @@
+ install git .
+ 
+ 3  mkdir playground
+    4  git status
+    5  git init    Which folder we create GIT version . Every new folder we can run init git.
+    6  git status
+    7  ls
+    8  pwd
+   
+   10  cd playground/
+   11  git status
+   12  cd ..
+   13  ls -la
+   14  rm -rf .git   Git init stop korte chaile .
+   15  ls
+   16  git status
+   17  cd playground/
+   18  git init
+   19  git status
+   20  pwd
+   21  touch linux.txt 
+   22  git status
+   23  git add linux.txt   Git follow koro linux file ke
+   24  git status
+   25  git commit -m "test newly git"
+   26  history
+   
+   * File Author Set ::
+   
+		git config --global user.name ashis
+   31  git config --global user.email ashis103@gmail.com
+
+
+ 33  touch testfile  New File
+   34  vi testfile
+   35  git status
+   36  git add .   All file in track
+   37  git status
+   38  git rm --cached testfile   * testfile ke untrack kora 
+   39  git status
+
+Git File systems delete hole restroe kora jae .....
+
+ 47  rm testfile
+   48  git status
+   49  git restore testfile
+   50  git status
+   51  history
+We change Globasl config ::
+   
+52  git config --global --list
+53  git config --global core.editor "vim"
+54  git config --global --list
+55  git status
+
+* Global Config change kora 
+git config --global --edit
+
+Branc change 
+git reset --hard 27664d023f4fccaa1848af
+
+Make another branch and Merge 
+
+62  git status
+   63  git checkout -b dev  ** New Branch **
+   64  git status
+   65  touch parti.txt    *New Branch a file *
+   66  git status
+   67  git add .
+   68  git commit -m "version 3"
+   69  git status
+   70  git log
+   71  git status
+   73  git branch
+   74  git switch master   
+   75  ls
+   77  git merge dev
+   78  git status
+   79  git log
+   80  ls
