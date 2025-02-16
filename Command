@@ -139,3 +139,13 @@ ubuntu@ip-172-31-47-42:~/playground/project/linux$ git log --oneline
 7ed2eaa (HEAD -> main) comiit l 2
 20ff9a0 commit1
 
+** Chery Pic :: File move from other branch ...
+
+283  git switch dev
+  284  git log --oneline
+  285  git switch main
+  286  git log --oneline
+  287  git cherry-pick 20ff9a0  ( 9a0 Dev branch er file)
+  288  git log --oneline
+  289  git cherry-pick b906bc4
+  290  git log --oneline
