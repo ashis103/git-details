@@ -86,4 +86,39 @@ Make another branch and Merge
    93  ls
    94  git remote  -v
    95  touch my-remore-test.txt
+142  git branch  * check how much branch*
+  143  git checkout -b deve   * switch branch*
+  144  ls
+  145  git log
+  146  touch newfile
+  147  git add .
+  148  git commit -m "add new file in local branch"
+  149  git status
+  150  ls
+  151  git log
+  152  get remote -v
+  153  git remote -v
+  155  git remote -v
+  156  git push origin main  ** Check git status which branch are you in *
+  157  git branch
+  160  git remote set-url origin  https://ghp_fKUqToken@github.com/ashis103/git-details.git
+  161  git push origin main  * Wrong command cause you set in Deve brnach::*
+  162  ls
+  163  git status
+  164  vi newfile
+  165  history
+  166  git checkout -b deve
+  167  ls
+  168  git status
+  169  git add .
+  170  git commit -m "new file add for push"
+  171  git push origin main
+  172  vi newfile
+  173  ls
+  174  git status
+  175  git push origin deve
+  176  git pull
+  177  git status
+  178  git switch main
+  179  git status
 
