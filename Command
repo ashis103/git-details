@@ -129,5 +129,13 @@ Make another branch and Merge
   272  git log --oneline
   273  git revert eef5533
   274  git log --oneline
+** Reset korle up er sob file deleted hoye jabe ....
 
+7ed2eaa comiit l 2
+20ff9a0 commit1
+ubuntu@ip-172-31-47-42:~/playground/project/linux$ git reset --hard 7ed2eaa
+HEAD is now at 7ed2eaa comiit l 2
+ubuntu@ip-172-31-47-42:~/playground/project/linux$ git log --oneline
+7ed2eaa (HEAD -> main) comiit l 2
+20ff9a0 commit1
 
