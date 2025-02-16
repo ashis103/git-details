@@ -1,0 +1,5 @@
+Password less authentication Local PC to Github 
+
+My Profile --Setting -->Developer Settings --> Personal Access Token
+
+git remote set-url origin  https://ghp_fKUqPA0Tur7---------@github.com/ashis103/git-details.git
